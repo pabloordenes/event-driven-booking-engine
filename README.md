@@ -30,17 +30,3 @@ The project is structured into the following specific layers:
 *   `BookingSystem.Infrastructure`: Data access implementations, Entity Framework configurations, and external service adapters.
 *   `BookingSystem.Api`: The primary HTTP entry point (REST/Minimal APIs).
 *   `BookingSystem.Worker`: A background daemon responsible for polling the Outbox table and publishing integration events.
-
-## Getting Started
-
-### Prerequisites
-
-*   [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0)
-*   SQL Server (Express, Developer, or Docker container)
-
-### Local Development Setup
-
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/yourusername/BookingSystem.git](https://github.com/yourusername/BookingSystem.git)
-   cd BookingSystem
